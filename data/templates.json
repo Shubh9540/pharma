@@ -1,0 +1,591 @@
+{
+  "common": {
+    "theme": {
+      "primaryColor": "#0e63ff",
+      "secondaryColor": "#2974ff",
+      "fontFamily": "DM Sans",
+      "displayFontFamily": "Archivo"
+    },
+    "Footer": {
+      "logo": "/main logo/footer logo.webp",
+      "logoAlt": "Virexa Pharmaceutical Logo",
+      "description": "Advancing global healthcare through cGMP-certified formulations, sterile biologics, and precision clinical therapeutics trusted by hospitals and medical institutions.",
+      "quickLinksTitle": "Quick Links",
+      "quickLinks": [
+        {
+          "id": "fl-home",
+          "label": "Home",
+          "href": "/#hero"
+        },
+        {
+          "id": "fl-about",
+          "label": "About",
+          "href": "/#about"
+        },
+        {
+          "id": "fl-services",
+          "label": "Services",
+          "href": "/#services"
+        },
+        {
+          "id": "fl-why",
+          "label": "Quality",
+          "href": "/#why-choose-us"
+        }
+      ],
+      "usefulLinksTitle": "Explore",
+      "usefulLinks": [
+        {
+          "id": "ul-testimonials",
+          "label": "Testimonials",
+          "href": "/#testimonials"
+        },
+        {
+          "id": "ul-faq",
+          "label": "FAQ",
+          "href": "/#faq"
+        },
+        {
+          "id": "ul-partners",
+          "label": "Partners",
+          "href": "/#partners"
+        },
+        {
+          "id": "ul-contact",
+          "label": "Contact Us",
+          "href": "/#contact"
+        }
+      ],
+      "contactTitle": "Headquarters",
+      "address": "123 Main St, New York, NY, USA",
+      "phone": "+1 00000 00000",
+      "phoneHref": "tel:+10000000000",
+      "email": "info@xyz.com",
+      "emailHref": "mailto:info@xyz.com",
+      "copyrightText": "© 2026 Virexa Pharmaceuticals. All rights reserved. Powered by Lestow"
+    }
+  },
+  "categories": {
+    "Pharmaceutical": {
+      "sections": {
+        "Header": {
+          "variants": {
+            "PharmaceuticalHeader2": {
+              "helpLabel": "HELP DESK :",
+              "phone": "+1 00000 00000",
+              "phoneHref": "tel:+10000000000",
+              "email": "info@xyz.com",
+              "emailHref": "mailto:info@xyz.com",
+              "socialLinks": [
+                {
+                  "id": "tb-li",
+                  "label": "LinkedIn",
+                  "href": "https://linkedin.com",
+                  "platform": "linkedin"
+                },
+                {
+                  "id": "tb-tw",
+                  "label": "X",
+                  "href": "https://x.com",
+                  "platform": "twitter"
+                },
+                {
+                  "id": "tb-fb",
+                  "label": "Facebook",
+                  "href": "https://facebook.com",
+                  "platform": "facebook"
+                },
+                {
+                  "id": "tb-ig",
+                  "label": "Instagram",
+                  "href": "https://instagram.com",
+                  "platform": "instagram"
+                }
+              ],
+              "logo": "/main logo/header logo.webp",
+              "logoAlt": "Virexa Pharmaceutical Logo",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "href": "/#hero"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About",
+                  "href": "/#about"
+                },
+                {
+                  "id": "nav-services",
+                  "label": "Services",
+                  "href": "/#services"
+                },
+                {
+                  "id": "nav-quality",
+                  "label": "Quality",
+                  "href": "/#why-choose-us"
+                },
+                {
+                  "id": "nav-faq",
+                  "label": "FAQ",
+                  "href": "/#faq"
+                },
+                {
+                  "id": "nav-partners",
+                  "label": "Partners",
+                  "href": "/#partners"
+                }
+              ],
+              "ctaText": "Contact Us",
+              "ctaHref": "/#contact",
+              "mobileMenuAriaLabel": "Open navigation menu",
+              "closeMenuAriaLabel": "Close navigation menu"
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "PharmaceuticalHero2": {
+              "title": "Precision Medicine Built for",
+              "titleHighlight": "Clinical Confidence",
+              "description": "Virexa develops, manufactures, and supplies high-purity small molecules, sterile injectables, and targeted biologics for hospitals and health systems worldwide.",
+              "primaryCtaText": "Explore Services",
+              "primaryCtaHref": "/#services",
+              "secondaryCtaText": "Contact Medical Affairs",
+              "secondaryCtaHref": "/#contact",
+              "backgroundImage": "/hero/pharma-hero-lab.jpg",
+              "backgroundAlt": "Modern pharmaceutical research laboratory with sterile glassware"
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "PharmaceuticalAboutUs2": {
+              "eyebrow": "OUR SCIENTIFIC HERITAGE",
+              "title": "Advancing Science for Reliable Care",
+              "description": "At Virexa, every formulation begins with rigorous analytical chemistry and ends with dependable bedside availability. Our automated cleanroom suites operate under continuous environmental monitoring to safeguard potency and stability.",
+              "secondaryDescription": "From early-stage bioequivalence studies to commercial-scale lyophilization, our multidisciplinary scientists partner with clinicians and hospital networks to deliver medicines that meet stringent international pharmacopeia standards.",
+              "image": "/about/pharma-facility.jpg",
+              "imageAlt": "Pharmaceutical scientist analyzing samples inside a sterile laboratory",
+              "pillars": [
+                {
+                  "id": "ap-1",
+                  "title": "Zero-Defect Sterile Suites",
+                  "description": "ISO Class 5 aseptic filling lines with real-time particulate telemetry.",
+                  "icon": "shield"
+                },
+                {
+                  "id": "ap-2",
+                  "title": "In-House R&D Labs",
+                  "description": "Dedicated stability chambers and HPLC impurity profiling.",
+                  "icon": "microscope"
+                },
+                {
+                  "id": "ap-3",
+                  "title": "Cold-Chain Logistics",
+                  "description": "Validated temperature-controlled distribution across 45+ markets.",
+                  "icon": "globe"
+                },
+                {
+                  "id": "ap-4",
+                  "title": "Full Batch Traceability",
+                  "description": "Serialized unit-level tracking from API synthesis to pharmacy shelf.",
+                  "icon": "check"
+                }
+              ]
+            }
+          }
+        },
+        "Services": {
+          "variants": {
+            "PharmaceuticalServices2": {
+              "eyebrow": "OUR SERVICES",
+              "title": "Pharmaceutical Solutions Across Core Clinical Areas",
+              "subtitle": "Engineered for bioavailability, therapeutic consistency, and seamless hospital formulary integration.",
+              "prevAriaLabel": "Previous service",
+              "nextAriaLabel": "Next service",
+              "items": [
+                {
+                  "id": "th-1",
+                  "code": "VX-01",
+                  "title": "Small Molecule Oral Solids",
+                  "category": "Cardiology & Metabolic",
+                  "summary": "Extended-release film-coated tablets and micronized capsules engineered for predictable plasma concentration profiles.",
+                  "formulation": "Tablets & Capsules",
+                  "image": "/therapeutics/small-molecule.jpg",
+                  "imageAlt": "Precision pharmaceutical vials and laboratory testing apparatus"
+                },
+                {
+                  "id": "th-2",
+                  "code": "VX-02",
+                  "title": "Biologics & Biosimilars",
+                  "category": "Immunology & Oncology",
+                  "summary": "Mammalian-cell derived monoclonal antibodies purified through multi-step chromatography for targeted immune modulation.",
+                  "formulation": "Prefilled Syringes",
+                  "image": "/therapeutics/biologics-lab.jpg",
+                  "imageAlt": "Biologics pipette testing in clean pharmaceutical lab"
+                },
+                {
+                  "id": "th-3",
+                  "code": "VX-03",
+                  "title": "Sterile Hospital Injectables",
+                  "category": "Critical & Acute Care",
+                  "summary": "Ready-to-administer ampoules and lyophilized vials manufactured in isolator-protected aseptic suites for ICU use.",
+                  "formulation": "Lyophilized Vials",
+                  "image": "/therapeutics/sterile-injectables.jpg",
+                  "imageAlt": "Sterile laboratory glassware and analytical solutions"
+                },
+                {
+                  "id": "th-4",
+                  "code": "VX-04",
+                  "title": "Clinical Trial Supply",
+                  "category": "Phase I–III Programs",
+                  "summary": "Blinded comparator packaging, stability testing, and global depot distribution supporting multicenter clinical studies.",
+                  "formulation": "Custom Clinical Kits",
+                  "image": "/therapeutics/clinical-trials.jpg",
+                  "imageAlt": "Clinical researcher examining molecular structure under microscope"
+                }
+              ]
+            }
+          }
+        },
+        "WhyChooseUs": {
+          "variants": {
+            "PharmaceuticalWhyChooseUs2": {
+              "eyebrow": "THE VIREXA ADVANTAGE",
+              "title": "Built on Analytical Rigor and Unbroken Supply Integrity",
+              "subtitle": "Healthcare systems rely on Virexa for consistent potency, transparent regulatory documentation, and resilient global inventory.",
+              "primaryImage": "/why-choose-us/quality-assurance.jpg",
+              "primaryImageAlt": "Pharmaceutical quality assurance capsules and blister inspection",
+              "secondaryImage": "/why-choose-us/global-supply.jpg",
+              "secondaryImageAlt": "Pharmaceutical tablets arranged for precision quality verification",
+              "highlightBadgeValue": "100%",
+              "highlightBadgeLabel": "Serialized Batch Compliance",
+              "stats": [
+                {
+                  "id": "ws-1",
+                  "value": "1492+",
+                  "label": "Clinical Batches Released"
+                },
+                {
+                  "id": "ws-2",
+                  "value": "152",
+                  "label": "Research Scientists"
+                },
+                {
+                  "id": "ws-3",
+                  "value": "1022+",
+                  "label": "Hospital Partners"
+                },
+                {
+                  "id": "ws-4",
+                  "value": "45+",
+                  "label": "Global Markets Served"
+                }
+              ],
+              "features": [
+                {
+                  "id": "wcu-1",
+                  "number": "01",
+                  "title": "Pharmacopeial Purity",
+                  "description": "Every API lot undergoes USP and Ph. Eur. validated assay, dissolution, and elemental impurity screening prior to release.",
+                  "icon": "flask"
+                },
+                {
+                  "id": "wcu-2",
+                  "number": "02",
+                  "title": "Audit-Ready Documentation",
+                  "description": "Complete Certificates of Analysis, stability dossiers, and DMF filings accessible for institutional procurement teams.",
+                  "icon": "award"
+                },
+                {
+                  "id": "wcu-3",
+                  "number": "03",
+                  "title": "Resilient Cold-Chain Network",
+                  "description": "Dual-source active ingredient qualification and GPS-monitored 2°C–8°C freight prevent hospital stockouts.",
+                  "icon": "truck"
+                },
+                {
+                  "id": "wcu-4",
+                  "number": "04",
+                  "title": "Pharmacovigilance Support",
+                  "description": "24/7 medical information desk and post-market safety surveillance led by board-certified clinical pharmacists.",
+                  "icon": "heart"
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "PharmaceuticalTestimonials2": {
+              "eyebrow": "CLINICAL ENDORSEMENTS",
+              "title": "Trusted by Hospital Pharmacists and Research Directors",
+              "subtitle": "Hear from healthcare leaders who partner with Virexa for critical care supply and clinical trial execution.",
+              "items": [
+                {
+                  "id": "ts-1",
+                  "quote": "Switching our critical care sterile injectables to Virexa eliminated our quarterly backorder delays. Their batch documentation and cold-chain telemetry are consistently exemplary.",
+                  "name": "Dr. Marcus Vance",
+                  "role": "Director of Hospital Pharmacy",
+                  "organization": "Metro General Health System",
+                  "avatar": "/testimonials/doctor-1.jpg",
+                  "avatarAlt": "Portrait of Dr. Marcus Vance",
+                  "rating": 5
+                },
+                {
+                  "id": "ts-2",
+                  "quote": "During our Phase II multicenter study, Virexa delivered blinded clinical kits ahead of schedule across fourteen sites with zero temperature excursions or regulatory queries.",
+                  "name": "Dr. Elena Rostova",
+                  "role": "VP of Clinical Operations",
+                  "organization": "Northbridge BioResearch",
+                  "avatar": "/testimonials/doctor-2.jpg",
+                  "avatarAlt": "Portrait of Dr. Elena Rostova",
+                  "rating": 5
+                },
+                {
+                  "id": "ts-3",
+                  "quote": "Their extended-release cardiovascular formulations demonstrate remarkable lot-to-lot uniformity. Our formulary committee values their responsive medical affairs team.",
+                  "name": "Dr. Julian Mercer",
+                  "role": "Chief of Internal Medicine",
+                  "organization": "St. Jude Clinical Institute",
+                  "avatar": "/testimonials/doctor-3.jpg",
+                  "avatarAlt": "Portrait of Dr. Julian Mercer",
+                  "rating": 5
+                },
+                {
+                  "id": "ts-4",
+                  "quote": "Virexa's audit-ready Certificates of Analysis and serialized tracking cut our incoming quality verification time in half across all regional hospital pharmacies.",
+                  "name": "Dr. Priya Nair",
+                  "role": "Head of Clinical Procurement",
+                  "organization": "Pacific Health Network",
+                  "avatar": "/testimonials/doctor-4.jpg",
+                  "avatarAlt": "Portrait of Dr. Priya Nair",
+                  "rating": 5
+                }
+              ]
+            }
+          }
+        },
+        "Faq": {
+          "variants": {
+            "PharmaceuticalFaq2": {
+              "eyebrow": "REGULATORY & SUPPLY FAQ",
+              "title": "Answers for Procurement and Clinical Teams",
+              "subtitle": "Everything you need to know about our cGMP certifications, technical dossiers, and institutional supply agreements.",
+              "supportCaption": "Need a Certificate of Analysis or custom formulation brief? Our Medical Affairs desk responds within one business day.",
+              "items": [
+                {
+                  "id": "faq-1",
+                  "question": "Which regulatory certifications do Virexa manufacturing sites hold?",
+                  "answer": "All Virexa formulation and sterile fill-finish facilities operate in compliance with WHO-GMP, EU-GMP, and US FDA cGMP guidelines, alongside ISO 9001 and ISO 13485 quality management certifications."
+                },
+                {
+                  "id": "faq-2",
+                  "question": "How can hospital procurement teams request Certificates of Analysis (CoA)?",
+                  "answer": "Institutional buyers and licensed distributors can request batch-specific CoAs, Material Safety Data Sheets, and Drug Master File access letters directly through our Medical Affairs contact form below."
+                },
+                {
+                  "id": "faq-3",
+                  "question": "Do you support custom contract manufacturing and clinical trial packaging?",
+                  "answer": "Yes. Our CDMO division provides small-batch clinical trial supplies, comparator blinding, lyophilization cycle development, and commercial-scale blister or vial packaging."
+                },
+                {
+                  "id": "faq-4",
+                  "question": "How is cold-chain integrity maintained during international shipping?",
+                  "answer": "Temperature-sensitive biologics and injectables ship in validated passive thermal containers equipped with calibrated NIST-traceable data loggers monitoring 2°C to 8°C conditions door-to-door."
+                }
+              ]
+            }
+          }
+        },
+        "Partners": {
+          "variants": {
+            "PharmaceuticalPartners2": {
+              "eyebrow": "GLOBAL NETWORK",
+              "title": "Our Pharmaceutical & Clinical Partners",
+              "subtitle": "Collaborating with leading research institutes, hospital pharmacies, and specialty distributors worldwide.",
+              "items": [
+                {
+                  "id": "pt-1",
+                  "name": "MedCore",
+                  "logo": "/partners/partner-1.png",
+                  "alt": "MedCore Partner Logo"
+                },
+                {
+                  "id": "pt-2",
+                  "name": "BioHelix",
+                  "logo": "/partners/partner-2.png",
+                  "alt": "BioHelix Partner Logo"
+                },
+                {
+                  "id": "pt-3",
+                  "name": "CuraVex",
+                  "logo": "/partners/partner-3.png",
+                  "alt": "CuraVex Partner Logo"
+                },
+                {
+                  "id": "pt-4",
+                  "name": "Synova",
+                  "logo": "/partners/partner-4.png",
+                  "alt": "Synova Partner Logo"
+                },
+                {
+                  "id": "pt-5",
+                  "name": "AurexBio",
+                  "logo": "/partners/partner-5.png",
+                  "alt": "AurexBio Partner Logo"
+                },
+                {
+                  "id": "pt-6",
+                  "name": "GenVance",
+                  "logo": "/partners/partner-6.png",
+                  "alt": "GenVance Partner Logo"
+                },
+                {
+                  "id": "pt-7",
+                  "name": "NordicMed",
+                  "logo": "/partners/partner-7.png",
+                  "alt": "NordicMed Partner Logo"
+                },
+                {
+                  "id": "pt-8",
+                  "name": "VeloCare",
+                  "logo": "/partners/partner-8.png",
+                  "alt": "VeloCare Partner Logo"
+                },
+                {
+                  "id": "pt-9",
+                  "name": "ApexRx",
+                  "logo": "/partners/partner-9.png",
+                  "alt": "ApexRx Partner Logo"
+                },
+                {
+                  "id": "pt-10",
+                  "name": "LumiGene",
+                  "logo": "/partners/partner-10.png",
+                  "alt": "LumiGene Partner Logo"
+                },
+                {
+                  "id": "pt-11",
+                  "name": "SteriLab",
+                  "logo": "/partners/partner-11.png",
+                  "alt": "SteriLab Partner Logo"
+                },
+                {
+                  "id": "pt-12",
+                  "name": "OptiDose",
+                  "logo": "/partners/partner-12.png",
+                  "alt": "OptiDose Partner Logo"
+                },
+                {
+                  "id": "pt-13",
+                  "name": "CellMatrix",
+                  "logo": "/partners/partner-13.png",
+                  "alt": "CellMatrix Partner Logo"
+                },
+                {
+                  "id": "pt-14",
+                  "name": "VitaPure",
+                  "logo": "/partners/partner-14.png",
+                  "alt": "VitaPure Partner Logo"
+                },
+                {
+                  "id": "pt-15",
+                  "name": "ZenoChem",
+                  "logo": "/partners/partner-15.png",
+                  "alt": "ZenoChem Partner Logo"
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "PharmaceuticalContact2": {
+              "eyebrow": "CONNECT WITH VIREXA",
+              "title": "Partner With Our Medical & Supply Team",
+              "subtitle": "Reach out for hospital formulary onboarding, technical dossiers, pharmacovigilance inquiries, or distribution partnerships.",
+              "infoItems": [
+                {
+                  "id": "ci-phone",
+                  "label": "Medical Affairs Desk",
+                  "value": "+1 00000 00000",
+                  "href": "tel:+10000000000",
+                  "icon": "phone"
+                },
+                {
+                  "id": "ci-email",
+                  "label": "Regulatory & Licensing",
+                  "value": "info@xyz.com",
+                  "href": "mailto:info@xyz.com",
+                  "icon": "mail"
+                },
+                {
+                  "id": "ci-map",
+                  "label": "Corporate Headquarters",
+                  "value": "123 Main St, New York, NY, USA",
+                  "href": "#contact",
+                  "icon": "map"
+                }
+              ],
+              "hoursLabel": "Global Operations",
+              "hoursValue": "Mon – Fri: 08:00 AM – 06:00 PM EST (24/7 Pharmacovigilance)",
+              "formTitle": "Send an Institutional Inquiry",
+              "nameLabel": "Full Name",
+              "namePlaceholder": "Dr. Sarah Jenkins",
+              "emailLabel": "Work Email",
+              "emailPlaceholder": "s.jenkins@hospital.org",
+              "organizationLabel": "Hospital / Organization",
+              "organizationPlaceholder": "Metro Health System",
+              "messageLabel": "Inquiry Details",
+              "messagePlaceholder": "Specify therapeutic area, dossier request, or supply volume...",
+              "submitText": "Submit Inquiry",
+              "successTitle": "Inquiry Received",
+              "successMessage": "Thank you for contacting Virexa Medical Affairs. A specialist will review your request and respond shortly.",
+              "resetButtonText": "Send Another Inquiry"
+            }
+          }
+        }
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "components": [
+        {
+          "key": "Hero",
+          "component": "PharmaceuticalHero2"
+        },
+        {
+          "key": "AboutUs",
+          "component": "PharmaceuticalAboutUs2"
+        },
+        {
+          "key": "Services",
+          "component": "PharmaceuticalServices2"
+        },
+        {
+          "key": "WhyChooseUs",
+          "component": "PharmaceuticalWhyChooseUs2"
+        },
+        {
+          "key": "Testimonials",
+          "component": "PharmaceuticalTestimonials2"
+        },
+        {
+          "key": "Faq",
+          "component": "PharmaceuticalFaq2"
+        },
+        {
+          "key": "Partners",
+          "component": "PharmaceuticalPartners2"
+        },
+        {
+          "key": "Contact",
+          "component": "PharmaceuticalContact2"
+        }
+      ]
+    }
+  }
+}
